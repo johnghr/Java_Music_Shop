@@ -29,4 +29,9 @@ public class KitItemTest {
         assertEquals("black", bassDrum.getColour());
     }
 
+    @Test
+    public void hasItemName(){
+        assertEquals("bass drum", bassDrum.getItemName());
+    }
+
 }

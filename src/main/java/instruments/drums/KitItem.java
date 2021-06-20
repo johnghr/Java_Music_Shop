@@ -4,14 +4,14 @@ import instruments.Instrument;
 
 public class KitItem extends Instrument {
 
-    public String item;
+    public String itemName;
 
-    public KitItem(String brand, String materials, String colour, String item) {
+    public KitItem(String brand, String materials, String colour, String itemName) {
         super(brand, materials, colour);
-        this.item = item;
+        this.itemName = itemName;
     }
 
-    public String getItem() {
-        return item;
+    public String getItemName() {
+        return itemName;
     }
 }
