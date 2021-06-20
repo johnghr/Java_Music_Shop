@@ -14,9 +14,10 @@ public class BassGuitarTest {
                 "Fender",
                 "Ash",
                 "Sunburst",
-                6,
-                "flats"
-        );
+                700,
+                900,
+                4,
+                "flats");
     }
 
     @Test
@@ -36,7 +37,7 @@ public class BassGuitarTest {
 
     @Test
     public void hasNumberOfStrings(){
-        assertEquals(6, bassGuitar.getNumberOfStrings());
+        assertEquals(4, bassGuitar.getNumberOfStrings());
     }
 
     @Test

@@ -21,7 +21,7 @@ public class DrumTest {
         kit = new ArrayList<KitItem>();
         kit.add(bassDrum);
         kit.add(snareDrum);
-        drums = new Drums("Pearl", "birch", "black", kit);
+        drums = new Drums("Pearl", "birch", "black", kit, 700, 900);
 
     }
 

@@ -10,8 +10,8 @@ public class Drums extends Instrument implements IPlay {
 
     private final ArrayList<KitItem> kit;
 
-    public Drums(String brand, String materials, String colour, ArrayList<KitItem> kit) {
-        super(brand, materials, colour);
+    public Drums(String brand, String materials, String colour, ArrayList<KitItem> kit, double buyingPrice, double sellingPrice) {
+        super(brand, materials, colour, buyingPrice, sellingPrice);
         this.kit = new ArrayList<>(kit);
     }
 

@@ -15,7 +15,10 @@ public class ElectricGuitarTest {
                 "Ash",
                 "Sunburst",
                 6,
+                700.00,
+                900,
                 "single coil"
+
         );
     }
 
