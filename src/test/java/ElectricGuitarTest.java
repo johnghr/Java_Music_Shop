@@ -39,4 +39,9 @@ public class ElectricGuitarTest {
         assertEquals(6, electricGuitar.getNumberOfStrings());
     }
 
+    @Test
+    public void canGetPickUps(){
+        assertEquals("single coil", electricGuitar.getPickUpType());
+    }
+
 }

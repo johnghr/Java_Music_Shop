@@ -8,4 +8,8 @@ public class Electric extends Guitar {
         super(brand, materials, colour, numberOfStrings);
         this.pickUpType = pickUpType;
     }
+
+    public String getPickUpType() {
+        return pickUpType;
+    }
 }
