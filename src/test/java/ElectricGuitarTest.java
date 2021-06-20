@@ -48,8 +48,23 @@ public class ElectricGuitarTest {
     }
 
     @Test
-    public void canPlayBass(){
+    public void canPlayElectricGuitar(){
         assertEquals("Wah wah chicka", electricGuitar.play());
+    }
+
+    @Test
+    public void canGetBuyingPrice(){
+        assertEquals(700.00, electricGuitar.getBuyingPrice(),00);
+    }
+
+    @Test
+    public void canGetSellingPrice(){
+        assertEquals(900.00, electricGuitar.getSellingPrice(), 00);
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(200, electricGuitar.calculateMarkup(),00);
     }
 
 

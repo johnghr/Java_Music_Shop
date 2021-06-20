@@ -50,4 +50,14 @@ public class DrumTest {
     public void canPlayDrums(){
         assertEquals("boots and cats", drums.play());
     }
+
+    @Test
+    public void canGetBuyingPrice(){
+        assertEquals(700.00, drums.getBuyingPrice(),00);
+    }
+
+    @Test
+    public void canGetSellingPrice(){
+        assertEquals(900.00, drums.getSellingPrice(), 00);
+    }
 }

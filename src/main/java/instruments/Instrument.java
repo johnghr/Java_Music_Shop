@@ -1,6 +1,8 @@
 package instruments;
 
-public abstract class Instrument {
+import behaviours.ISell;
+
+public abstract class Instrument implements ISell {
 
     private String brand;
     private String materials;
@@ -38,5 +40,10 @@ public abstract class Instrument {
 
     public double getSellingPrice() {
         return sellingPrice;
+    }
+
+    @Override
+    public double calculateMarkup() {
+        return sellingPrice - buyingPrice;
     }
 }

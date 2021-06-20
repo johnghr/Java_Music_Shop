@@ -50,4 +50,14 @@ public class BassGuitarTest {
         assertEquals("bum bum bah bum", bassGuitar.play());
     }
 
+    @Test
+    public void canGetBuyingPrice(){
+        assertEquals(700.00, bassGuitar.getBuyingPrice(),00);
+    }
+
+    @Test
+    public void canGetSellingPrice(){
+        assertEquals(900.00, bassGuitar.getSellingPrice(), 00);
+    }
+
 }
