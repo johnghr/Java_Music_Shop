@@ -10,4 +10,8 @@ public abstract class Guitar extends Instrument {
         super(brand, materials, colour);
         this.numberOfStrings = numberOfStrings;
     }
+
+    public int getNumberOfStrings() {
+        return numberOfStrings;
+    }
 }
