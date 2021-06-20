@@ -19,4 +19,9 @@ public class KitItemTest {
         assertEquals("Pearl", bassDrum.getBrand());
     }
 
+    @Test
+    public void hasMaterials(){
+        assertEquals("birch", bassDrum.getMaterials());
+    }
+
 }
