@@ -3,15 +3,16 @@ package instruments.drums;
 import behaviours.IPlay;
 import instruments.Instrument;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Drums extends Instrument implements IPlay {
 
-    private ArrayList<KitItem> kit;
+    private final ArrayList<KitItem> kit;
 
-    public Drums(String brand, String materials, String colour) {
+    public Drums(String brand, String materials, String colour, ArrayList<KitItem> kit) {
         super(brand, materials, colour);
-        this.kit = new ArrayList<>();
+        this.kit = new ArrayList<>(kit);
     }
 
     public ArrayList<KitItem> getKit() {

@@ -11,22 +11,7 @@ public class KitItemTest {
 
     @Before
     public void setUp(){
-        bassDrum = new KitItem("Pearl", "birch", "black", "bass drum");
-    }
-
-    @Test
-    public void hasBrand(){
-        assertEquals("Pearl", bassDrum.getBrand());
-    }
-
-    @Test
-    public void hasMaterials(){
-        assertEquals("birch", bassDrum.getMaterials());
-    }
-
-    @Test
-    public void hasColour(){
-        assertEquals("black", bassDrum.getColour());
+        bassDrum = new KitItem("bass drum");
     }
 
     @Test

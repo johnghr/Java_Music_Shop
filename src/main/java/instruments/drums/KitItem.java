@@ -2,12 +2,11 @@ package instruments.drums;
 
 import instruments.Instrument;
 
-public class KitItem extends Instrument {
+public class KitItem {
 
     public String itemName;
 
-    public KitItem(String brand, String materials, String colour, String itemName) {
-        super(brand, materials, colour);
+    public KitItem(String itemName) {
         this.itemName = itemName;
     }
 
