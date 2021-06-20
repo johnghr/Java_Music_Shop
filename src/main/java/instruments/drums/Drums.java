@@ -1,10 +1,11 @@
 package instruments.drums;
 
+import behaviours.IPlay;
 import instruments.Instrument;
 
 import java.util.ArrayList;
 
-public class Drums extends Instrument {
+public class Drums extends Instrument implements IPlay {
 
     private ArrayList<KitItem> kit;
 
@@ -15,5 +16,10 @@ public class Drums extends Instrument {
 
     public ArrayList<KitItem> getKit() {
         return kit;
+    }
+
+    @Override
+    public String play() {
+        return "boots and cats";
     }
 }
