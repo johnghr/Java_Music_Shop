@@ -44,4 +44,10 @@ public class ElectricGuitarTest {
         assertEquals("single coil", electricGuitar.getPickUpType());
     }
 
+    @Test
+    public void canPlayBass(){
+        assertEquals("Wah wah chicka", electricGuitar.play());
+    }
+
+
 }

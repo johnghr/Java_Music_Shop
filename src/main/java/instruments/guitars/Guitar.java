@@ -14,4 +14,8 @@ public abstract class Guitar extends Instrument {
     public int getNumberOfStrings() {
         return numberOfStrings;
     }
+
+    public String play(){
+        return "Wah wah chicka";
+    }
 }
